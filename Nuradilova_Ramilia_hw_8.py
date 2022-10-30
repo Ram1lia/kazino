@@ -30,7 +30,22 @@ def create_product(conn, product: tuple):
     except Error as e:
         print(e)
 
-
+def create_products(conn):
+    create_product(conn, ('eyeshadow palette', 35.50, 5))  # 1
+    create_product(conn, ('lip liner', 25.00, 10))  # 2
+    create_product(conn, ('face powder ', 120.00, 8))  # 3
+    create_product(conn, ('blush', 62.40, 12))  # 4
+    create_product(conn, ('face primer', 20, 5))  # 5
+    create_product(conn, ('highlighter', 600.99, 2))  # 6
+    create_product(conn, ('skin foundation', 108.60, 7))  # 7
+    create_product(conn, ('brow gel', 400, 20))  # 8
+    create_product(conn, ('lipstick', 250.00, 6))  # 9
+    create_product(conn, ('under-eye concealer ', 105000.00, 3))  # 10
+    create_product(conn, ('cream', 114.59, 4))  # 11
+    create_product(conn, ('exfoliant', 19.40, 8))  # 12
+    create_product(conn, ('mirror', 73.70, 4))  # 13
+    create_product(conn, ('cleansing wipes ', 250.00, 3))  # 14
+    create_product(conn, ('moisturizer', 240.00, 5))  # 15
 
 
 
